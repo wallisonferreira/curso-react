@@ -1,0 +1,41 @@
+:root {
+    --brand: #0000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 350px;
+}
+
+.data {
+    padding-top: 20px;
+}
+
+.headerLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    height: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-top: 5px solid #990000;
+}
